@@ -1,0 +1,16 @@
+From the summary of sales price in staten island we observed that there were a lot of missing values.We performed data clean up on the sales price and sqft columns to eliminate these missing values.We eliminated irrevalant data prices (prices having NA , $-).For our analysis we considered only the family dwellings.We eliminated the outliers - sales price less than 100K Plotted sqft vs sales price graph. Since this was right skewed we plotted the log transformation. 
+
+Based on the analysis we find a strong linear co-relation b/w sale price and sqft.
+
+the data was normally distributed after cleaning up missing values and outliers.
+
+
+## Final language here ##
+Initial load of the data revealed  multiple inconsistencies within our raw data. During data clean up we eliminated missing values, invalid inputs and we trimmed away data that showed a sale price below $50,000. 
+
+After data clean up we plotted our sales data to our square footage data (scatterplot01.png). The resulting chart showed a data set that was had a very strong right skew. We opted to perform a log transform on our data before proceeding any further.  
+
+Histogram01.png reveals the log transformed distribution of our data. The blue line represents the mean value of the data and the red line represents the median of our data. Based on the graph we can see that the transformed data is normally distributed about the mean of the sample. 
+
+Scatterplot02.png reveals our transformed data. The plot clearly reveals there is a steep linear relationship between square feet of a property and its sale price. In short, there is a very high premium on square footage in New York City. 
+
