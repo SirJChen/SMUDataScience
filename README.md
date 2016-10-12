@@ -1,0 +1,2 @@
+# SMUDataScience
+Data Science @ SMU
